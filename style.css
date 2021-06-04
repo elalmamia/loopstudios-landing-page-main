@@ -26,6 +26,7 @@ a{
     text-decoration: none;
     color: var(--white);
     position: relative;
+    font-weight: 600;
 }
 a:hover::after{
     content:'';
@@ -73,12 +74,13 @@ h1{
     padding: 3rem 6.5rem 3rem 3rem;
     width: 43rem;
     margin-top: 9rem;
-    margin-bottom: 9rem;
+    margin-bottom: 7rem;
+    line-height: .9;
 }
 h2{
     text-transform: uppercase;
     font-size: 3rem;
-    color: var(--v-dark-gray);
+    color: var(--black);
     font-weight: 600;
 }
 .main-wrapper{
